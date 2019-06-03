@@ -1,7 +1,11 @@
 # coding=utf-8
 
 from django.conf.urls import url
-from DataSupport.views import data_first
+from DataSupport.views import *
 urlpatterns = [
-    url(r'^data/',data_first),
+    url(r'^qiyeyaowen/',qiyeyaowen),
+    url(r'^yiliaoxinwen/',yiliaoxinwen),
+    url(r'^shenghuotieshi/',shenghuotieshi),
+    url(r'^yaopinxinwen/',yaopinxinwen),
+    url(r'^shehuiredian/',shehuiredian),
 ]
